@@ -616,21 +616,99 @@ os/exec
 # 📂 Repository Structure
 
 ```text
-Go-Learning/
+GoByExample/
 │
-├── 01-Hello-World
+├── 01-HelloWorld
 ├── 02-Values
 ├── 03-Variables
-├── ...
-├── 69-Testing-and-Benchmarking
+├── 04-Constants
+├── 05-For
+├── 06-If_Else
+├── 07-Switch
+├── 08-Arrays
+├── 09-Slices
+├── 10-Maps
+├── 11-Functions
+├── 12-Closures
+├── 13-Recursion
+├── 14-Pointers
+├── 15-strings_runs
+├── 16-Structs
+├── 17-Methods
+├── 18-Interface
+├── 19-Enums
+├── 20-Struct_Embedding
+├── 21-Generics
+├── 22-Range_Over_Iterators
+├── 23-Errors
+├── 24-Custom_errors
+├── 25-Routines
+├── 26-Channels
+├── 27-Channel-Buffering
+├── 28-Channel-Synchronization
+├── 29-Channel-Directions
+├── 30-Select
+├── 31-Timeouts
+├── 32-Non-Blocking-Channel-Operations
+├── 33-Closing-Channel
+├── 34-Range-over-Channels
+├── 35-Timers
+├── 36-Tickers
+├── 37-Worker-Pools
+├── 38-WaitGroups
+├── 39-Rate-Limiting
+├── 40-Atomic-Counters
+├── 41-Mutexes
+├── 42-Stateful-Goroutines
+├── 43-Sorting
+├── 44-Sorting-by-functions
+├── 45-Panic
+├── 46-Defer
+├── 47-Recover
+├── 48-String-Functions
+├── 49-String-Formatting
+├── 50-Text-Templates
+├── 51-Regular-Expressions
+├── 52-JSON
+├── 53-XML
+├── 54-Time
+├── 55-Epoch
+├── 56-Time-Formatting-Parsing
+├── 57-Random-Numbers
+├── 58-Number-Parsing
+├── 59-URL-Parsing
+├── 60-SHA256-Hashes
+├── 61-Base64-Encoding
+├── 62-Reading-files
+├── 63-Writing-files
+├── 64-Line-Filters
+├── 65-File-Path
+├── 66-Directories
+├── 67-Temporary-Files-And-Directories
+├── 68-Embed-Directive
+├── 69-Testing-and-benchmarking
+├── 70-Command-Line-Arguments
+├── 71-Command-Line-Flags
+├── 72-Command-Line-SubCommands
+├── 73-Environment-Variables
+├── 74-Logging
+├── 75-HTTP-Client
+├── 76-HTTP-Server
+├── 77-TCP-Server
+├── 78-Context
+├── 79-Spawning-Processes
+├── 80-Execing-Processes
+├── 81-Signals
+├── 82-Exit
 │
+├── README.md
 ├── go.mod
 ├── go.sum
-└── README.md
+│
+├── subdir/
+└── exit/
 ```
-
 ---
-
 # ▶️ Run Project
 
 Run example:
